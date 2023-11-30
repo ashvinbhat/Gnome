@@ -1,0 +1,53 @@
+#container-parent {
+  height: 1145px;
+  background-color: #bcb712;
+  background-position: center;
+  background-size: cover;
+}
+
+#container {
+  background-color: rgba(127, 117, 117, 0.8);
+  margin: 0px auto;
+  padding: 50px 0;
+  width: 750px;
+  text-align: center;
+  box-shadow: 4px 2px 4px rgba(90, 75, 75, 0.8);
+  border-radius: 4px;
+  position: relative;
+  top: 250px;
+}
+
+#container h1 {
+  font-size: 50px;
+  margin: auto;
+}
+
+#container p {
+  font-size: larger;
+}
+
+#start, #cropImage{
+  border-radius: 15px;
+  padding: 15px;
+  font-size: larger;
+}
+
+#start:hover, #cropImage:hover {
+  background-color: #fcdf21;
+  box-shadow: 2px 2px 4px #e6c90e;
+}
+
+.upload {
+  width: 150px;
+  margin: auto;
+  border-radius: 15px;
+  position: relative;
+  top: 22px;
+  padding: 15px;
+  font-size: larger;
+}
+.upload:hover {
+  background-color: #fcdf21;
+  box-shadow: 2px 2px 4px #e6c90e;
+}
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Health Report Processor</title>
+        <meta charset="UTF-8">
+        <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/cropper/2.3.4/cropper.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js" integrity="sha512-ooSWpxJsiXe6t4+PPjCgYmVfr1NS5QXJACcR/FPpsdm6kqG1FmQ2SVyg2RXeVuCRBLr0lWHnWJP6Zs1Efvxzww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    </head>
+    <style>
+        div.class2{
+            width: 100%;
+            height: 100%;
+            background-color: #f1f1f1;
+            padding: 20px;
+            display: flex;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="form_acceptor"> <!--accept the image from user-->
+                <label for="file">Please Upload Your Report Here</label>
+                <input type="file" accept="image/*"  id="upload1"  required>
+                
+            </div>
+
+        <div class="box-2"> <!--Show the cropper interface here-->
+            <div class="result">
+
+            </div>
+            <div class="cropped_holder hide"> <!--div to display the result of the crop-->
+                <img src="" class="cropped_img hide">
+
+            </div>
+            <button class="btn submit hide">Crop!</button>
+            <button class="btn reset1 hide">Reset</button>
+            
+        </div>
+        </div>
+
+        
+
+
+
+
+
+
+    <script src="scripty.js">
+
+
+    </script>
+    </body>
+</html>
